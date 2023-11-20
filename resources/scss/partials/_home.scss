@@ -3,5 +3,15 @@ main {
     margin: 1rem auto;
     .card {
         height: 200px;
+        .card-body {
+            position: relative;
+            .rate {
+                position: absolute;
+                left: 10px;
+            }
+            .btn.detail-btn {
+                width: fit-content;
+            }
+        }
     }
 }

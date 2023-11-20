@@ -3,7 +3,7 @@
 
 @section('content')
 
-<h1>Homepage</h1>
+<h1>Laravel Model Controller</h1>
 <div class="container cards-wrapper d-flex flex-wrap my3">
 
     {{-- Card --}}

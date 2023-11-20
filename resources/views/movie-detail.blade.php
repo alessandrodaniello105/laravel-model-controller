@@ -1,6 +1,5 @@
 @extends('layouts.main');
 
-
 @section('content')
 
 <h1>Dettaglio di: {{$movie->title}}</h1>
@@ -8,7 +7,7 @@
 {{-- Card --}}
 <div class="card movie-card m-3" style="width: 18rem;">
 
-    <img src="#" class="card-img-top" alt="{{$movie->title}}">
+    <img src="{{$cover->cover_url}}" class="card-img-top" alt="{{$movie->title}}">
 
     <div class="card-body d-flex flex-column justify-content-between">
 
